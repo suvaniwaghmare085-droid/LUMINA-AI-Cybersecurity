@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>LUMINA</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><span>✦</span><div><b>LUMINA</b><small>LINK & MESSAGE SAFETY</small></div></header>
+<p class="intro">Check the selected text or current page address.</p>
+<div class="buttons"><button id="selected">Analyze selected text</button><button id="page">Analyze current page URL</button></div>
+<label for="content">OR PASTE CONTENT</label><textarea id="content" placeholder="Paste a message or URL…"></textarea>
+<button id="analyze" class="primary">Analyze content →</button><div id="result" aria-live="polite">Connects to your local LUMINA backend.</div>
+<p class="note">Run the Flask backend on this computer first. LUMINA does not guarantee a site is safe.</p><script src="popup.js"></script></body></html>
